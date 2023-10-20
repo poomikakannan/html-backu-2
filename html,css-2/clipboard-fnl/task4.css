@@ -1,0 +1,286 @@
+body{
+    width: 100%;
+    background-image: url(bg-header-desktop.png);
+    background-repeat: no-repeat;
+    margin : 0;
+    /* max-width: 1440%; */
+    font-family: Bai Jamjuree;
+    border: 1px solid black;
+}
+.content{
+   text-align: center;
+   width:100%;
+   max-width: 1440px;
+}
+.content p{
+    color: hsl(201, 11%, 66%);
+}
+.content h2{
+    color: hsl(210, 10%, 33%);
+}
+.sumbit-btn1{
+    width: 12%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: hsl(171, 66%, 44%);
+    color:white;
+    border: none;
+}
+.sumbit-btn2{
+    width: 12%;
+    height: 40px;
+    border-radius: 20px;
+    background-color:hsl(233, 100%, 69%);
+    color:white;
+    border: none;
+} 
+.sumbit-btn1:hover{
+    cursor: pointer;
+}
+.sumbit-btn2:hover{
+    cursor: pointer;
+}
+.page1{
+    text-align: center;
+}
+.page1 h2{
+    color: hsl(210, 10%, 33%);
+}
+.page1 p{
+    color:  hsl(201, 11%, 66%);
+}
+.page2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.page2 img{
+    width: 100%;
+    /* min */
+    position: relative;
+    left: -134px;
+}
+.para1{
+    width: 50%;
+}
+.para2{
+    width: 40%;
+    min-width: 500px;
+}
+.para2 h2{
+    color: hsl(210, 10%, 33%) ;
+}
+.para2 p{
+    color: hsl(201, 11%, 66%);
+}
+.page3{
+    text-align: center;
+}
+.page3 h2{
+    padding: 20px 0px 0px 0px;
+    color: hsl(210, 10%, 33%);
+}
+.page3 p{
+    color: hsl(201, 11%, 66%);
+}
+.page4{
+    text-align: center;
+}
+.page4 h2{
+    color: hsl(210, 10%, 33%) ;
+}
+.page4 p{
+    color: hsl(201, 11%, 66%);
+}
+.page5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.p1 h4{
+    color: hsl(210, 10%, 33%) ;
+}
+.p1 p{
+    color: hsl(201, 11%, 66%);
+    padding: 5px;
+} 
+.p2 h4{
+    color: hsl(210, 10%, 33%) ;
+}
+.p2 p{
+    color: hsl(201, 11%, 66%);
+    padding: 10px;
+} 
+.p3 h4{
+    color: hsl(210, 10%, 33%) ;
+}
+.p3 p{
+    color: hsl(201, 11%, 66%);
+    /* padding: 20px; */
+} 
+.page6{
+    display: flex;
+    gap: 50px;
+    padding: 0px 80px;
+    flex-wrap: wrap;
+}
+.page7{
+    text-align: center;
+    padding: 80px;
+ }
+ .page7{
+     color: hsl(201, 11%, 66%);
+ }
+ .page7{
+     color: hsl(210, 10%, 33%);
+ }
+ .btn1{
+    width: 15%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: hsl(171, 66%, 44%);
+    color:white;
+    border: none;
+}
+
+.btn2{
+    width: 15%;
+    height: 40px;
+    border-radius: 20px;
+    background-color:hsl(233, 100%, 69%);;
+    color:white;
+    border: none;
+} 
+.btn1:hover{
+    cursor: pointer;
+}
+.btn2:hover{
+    cursor: pointer;
+}
+.page8{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(200, 11%, 89%) ;
+    padding: 0px 70px 0px 100px;
+    color : hsl(210, 10%, 33%);
+    flex-wrap: wrap;
+}
+.page8 img{
+    width: 30%;
+    height: 20%;
+    min-width: 50px;
+}
+ul{
+    display: flex;    
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 0px;
+    
+}
+ul a{
+    text-decoration: none;
+    color : hsl(210, 10%, 33%);
+}
+.main{
+    gap:18px;
+    font-size: 25px;
+    display: flex;
+    
+}
+.main a{
+    color : hsl(210, 10%, 33%);
+}
+.main a:hover{
+    color:hsl(171, 66%, 44%);
+}
+ul a:hover{
+    color:hsl(171, 66%, 44%);
+}
+.main:hover{
+    cursor: pointer;
+}
+@media(max-width:375px){
+    .body{
+        display: flex;
+        flex-wrap: wrap;
+        border-inline-color: 1px soild black;
+    }
+    .sumbit-btn1{
+        width: 200%;
+        height: 40px;
+        border-radius: 20px;
+        padding: 0px;
+    }
+    .sumbit-btn2{
+        width:200%;
+        padding: 0px;
+    }
+    .content{
+        width:30%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .page2 img{
+        width: 40%;
+        height:30%;
+        padding: 0px;
+        position: relative;
+        left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .page5{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        padding: 0px;
+        flex-wrap: wrap;
+    }
+    .page6{
+        display: flex;
+        gap: 20px;
+        padding: 0px;
+        flex-wrap: wrap;
+    }
+    .page7{
+        text-align: center;
+        padding: 0px;
+     }
+     .page8{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: hsl(200, 11%, 89%) ;
+        padding: 0px;
+        color : hsl(210, 10%, 33%);
+    }
+    .page8 img{
+        width: 15%;
+        height: 10%;
+     
+    }
+    .page3 img{
+        width: 40%;
+    }
+    .para2{
+        min-width:150px;
+    }
+    .btn1{
+        width: 50%;
+    }
+    .btn2{
+        width: 50%;
+    }
+
+}
+
+
+
+
+
